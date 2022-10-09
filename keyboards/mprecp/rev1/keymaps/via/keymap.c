@@ -70,9 +70,9 @@ void led_set_user(uint8_t usb_led) {
 bool encoder_update_user(uint8_t index, bool clockwise) {
     if (index == 0) { /* Encoder */
         if (clockwise) {
-            tap_code(KC_A); /* edit */
+            tap_code(KC_J); /* edit */
         } else {
-            tap_code(KC_B); /* edit */
+            tap_code(KC_K); /* edit */
         }
     }
     return true;
